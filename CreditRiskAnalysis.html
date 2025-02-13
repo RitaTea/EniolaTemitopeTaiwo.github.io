@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eniola Taiwo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Eniola Taiwo</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/eniola-taiwo-fmva®-096a44232">LinkedIn</a></li>
+								<li><a href="mailto:taiwoeniola75@gmail.com">Resume</a></li>
+								<li><a href="https://github.com/RitaTea">GITHUB</a></li>
+								<li><a href="#">PowerBI</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+						<section>
+							<ul class="links">
+								<li>
+									<a href="#">
+										<h3>LINKEDIN</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h3>RESUME</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h3>GITHUB</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h3>POWERBI</h3>
+									</a>
+								</li>
+							</ul>
+						</section>
+
+				</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">CREDIT RISK ANALYSIS </a></h2>
+										
+									</div>
+									
+								</header>
+								<span class="image featured"><img src="/images/Screenshot 2025-02-12 001458.png" alt="" /></span>
+								<p>This project dove deep into the loan data of a financial company to understand why some loans were defaulting and how to improve the lending process. I started by exploring the data, getting a sense of the different loan statuses (paid, unpaid, partly paid) and calculating the overall default rate. It turned out that a significant portion of loans were not being fully repaid, highlighting the need for better risk management.</p>
+							    <p>One key area I investigated was the timing of defaults. I looked at the First Payment Default (FPD) rates at different intervals (0 days, 3 days, 7 days, etc.) and discovered that most defaults happened very early on, often within the first week. This suggested that there might be early warning signs in the loan applications or initial payment behavior that could help predict future defaults.</p>
+							    <p>Then, I wanted to understand the loan portfolio better. I grouped the loans by their status (paid, unpaid, etc.) and analyzed the loan amounts, disbursement amounts, and total amounts to repay for each group. This helped see the financial impact of defaults and understand the characteristics of different loan categories.</p>	
+							    <p>Since internal scores were available I wanted to see if they could be used to predict defaults. I looked at the distribution of these scores and tested different cutoff points to see if a minimum score could help reduce the default rate. The goal was to find a balance between approving enough loans and minimizing the risk of defaults.</p>
+							    <p>Another important factor I considered was whether a client was new or returning. I found that returning clients had a significantly lower default rate and often took larger loans. This made sense – if someone has successfully repaid loans in the past, they are likely to do so again.</p>
+							    <p>Based on these insights, I proposed a few key lending rules. First, for new clients, I suggested implementing a minimum internal score cutoff to reduce the risk of defaults. Second, for returning clients with a good repayment history (for example, 3 or more successfully repaid loans), I recommended offering higher credit limits as they are less risky. Third, I suggested avoiding loans to clients with multiple users sharing the same Android ID, as this could be a sign of fraudulent activity.</p>
+								<p>Finally, I created visualizations to clearly communicate my findings. I made a chart showing the distribution of loan statuses and another chart comparing the default rates of new and returning clients. These visuals helped to tell the story of the data and make the insights more accessible to everyone. The overall goal of this project was to provide data-driven recommendations to improve the lending process, reduce defaults, and ultimately make the business more profitable.</p>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
